@@ -5,10 +5,10 @@ int Nstair(int n){
 	if(n==0){
 		return 1;
 	}
-	//recursive case
 	if(n<0){
 		return 0;
 	}
+	//recursive case
 	return(Nstair(n-1)+Nstair(n-2)+Nstair(n-3));
 }
 int main(){
